@@ -2,6 +2,7 @@ import React from 'react';
 import { Link} from 'react-router-dom';
 import { connect } from 'react-redux'
 import {initState} from './Redux_/Actions'
+import './Listado.css'
 /*
 const Listado = (state)=>{
     console.log("Listado: ",state)
@@ -27,9 +28,29 @@ class Listado extends React.Component{
           console.log("caca",this.props.estadoInicial)
           
         return (
-
-                 <h3>as</h3>
-             )
+                <div className="ListGrid">
+                    {
+                     this.props.estadoInicial.map((item)=>{
+                     return (
+                                <div>
+                                    <div className="card">
+                                        <img src={item.foto}/>
+                                        <div>
+                                            <span className="Petdata cardInfo">Nombre:{item.nombre}</span>
+                                            <span className="Petdata cardInfo">Sexo:</span>                                    
+                                            <span  className="Petdata cardInfo">tipo:</span>
+                                            <span  className="Petdata cardInfo">Ubicacion:</span>
+                                        </div>
+                                        <button className="adoptBtn ">Adoptar!</button>
+                                        </div>
+                                    </div>
+                                
+                            )
+                         }
+                     )
+                }
+            </div>
+        )
     }
 }
 

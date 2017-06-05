@@ -1,4 +1,6 @@
 
+import { combineReducers } from 'redux';
+
 const stateShape = [
     {
         nombreMascota:"",
@@ -8,11 +10,11 @@ const stateShape = [
     }
 ]
 
-export const estadoInicial = (state=[],action) =>{
+const estadoInicial = (state=[],action) =>{
  
     switch (action.type) {
         case "INITIAL_GET_OK":
-            console.log("paso por reducer")
+            console.log("paso por reducer: ",action.data)
             return state.concat(action.data)
             break;
     
@@ -22,9 +24,9 @@ export const estadoInicial = (state=[],action) =>{
     }
 }
 
+const reducer = combineReducers({stateShape,estadoInicial})
 
-
-
+export default reducer
 
 /*
 

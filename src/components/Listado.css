@@ -1,0 +1,68 @@
+body{
+  background:#ADF7F2;
+}
+
+.ListGrid{
+    display:flex;
+     flex-wrap:wrap;
+     margin:0 auto;
+     max-width:80%;
+
+}
+.card{
+    text-align: center;
+    color:#98D6D1;
+    padding:50px 5px 10px 5px;
+    width:350px;
+    background:white;
+    margin:5px;
+    height:350px;
+  
+  
+  
+}
+.cardInfo{
+    text-align: left;
+}
+.Petdata{
+  font-family:arial;
+  padding:4px 6px;
+  display:block;
+  border-bottom:0.1px dotted lightgrey;
+  
+  
+}
+
+.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    transition: 0.9s;
+}
+
+.card img {
+    max-width:250px;
+    max-height:250px;
+ }
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0     rgba(0,0,0,0.4);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.adoptBtn{
+  
+  display:block;
+  margin:10px auto;
+  height:30px;
+  border-radius:10%;
+  width:80px;
+  color:white;
+  font-size:15px;
+  
+  
+}
