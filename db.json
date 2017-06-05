@@ -1,0 +1,43 @@
+{
+    "Mascotas":[
+        {
+            "nombre":"Tito",
+            "foto":"http://www.mundogatos.com/Uploads/mundogatos.com/ImagenesGrandes/adoptar-gato-apropiado.jpg",
+            "barrio":""
+        },
+         {
+            "nombre":"Bobby",
+            "foto":"https://www.canalmascotas.com/wp-content/uploads/files/article/l/lo-que-se-debe-tener-en-cuanta-antes-de-adoptar-un-gato_ripo6.jpg",
+            "barrio":""
+        },
+         {
+            "nombre":"La rata",
+            "foto":"https://misanimales.com/wp-content/uploads/2016/05/adoptar-un-gato-de-la-calle.jpg",
+            "barrio":""
+        },
+         {
+            "nombre":"Rozane",
+            "foto":"http://static.wixstatic.com/media/d69636_f1d6f1fa6d23a72ecbdb1a2d4713c0cb.jpg_1024",
+            "barrio":""
+        },
+         {
+            "nombre":"Marx",
+            "foto":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGsUF9nOT5mePyIGEX17JSP-GpBPhJ-VT8pRTMuHWGnzgQxWk",
+            "barrio":""
+        }
+    ],
+    "Usuarios":[
+        {
+            "nombreUsr":"Carlos",
+            "ubicacion":"Villa Fiorito"
+        },
+        {
+            "nombreUsr":"Daniel",
+            "ubicacion":"Ciudadela"
+        },
+                {
+            "nombreUsr":"Beatriz",
+            "ubicacion":"Villa Soldati"
+        }
+    ]
+}

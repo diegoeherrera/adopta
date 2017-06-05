@@ -1,0 +1,46 @@
+.mainCont{
+  width:100%;
+  height:100vh;
+  background:#98D6D1;
+  
+}
+
+.welcomeMsg{
+
+  font-family:arial;
+  padding:20% 5%;
+  font-size:30px;
+}
+
+.vamosBtn{
+  width:250px;
+  height:50px;
+  background:yellow;
+  opacity:0.8;
+  border-radius:6%;
+  
+}
+
+.vamosBtn:hover{
+  opacity:1;
+}
+
+body{
+    margin:0;
+    overflow: hidden;
+}
+
+/**/
+
+.welcomeMsg {
+    height: 350px;
+    width:550px;
+    font-family: arial;
+    padding: 5% 5%;
+    font-size: 30px;
+   
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    right: 30%;
+}
